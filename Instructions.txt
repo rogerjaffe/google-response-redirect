@@ -1,0 +1,17 @@
+*** Redirect back to Google form after submission ***
+
+a. After the user submits a Google Form, the response page is shown for 4 seconds then redirects back to the form
+
+*** Installation instructions ***
+
+1. Open Google Chrome
+2. Enter chrome://extensions for the URL
+3. Enable Developer mode (top right corner)
+4. Click Load unpacked extension...
+5. Choose the ExtensionFiles folders located in the same folder as 
+   these instructions.
+6. The extension will load into Chrome
+7. Uncheck Developer mode box
+
+You can delete the files when you're finished installing the extension
+

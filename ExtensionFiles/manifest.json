@@ -1,0 +1,16 @@
+{
+	"name": "Google Response redirect back Form",
+	"version": "1.1",
+	"manifest_version": 2,
+	"description": "Redirect browser back to the Google Form after a response has been submitted",
+	"permissions": ["storage"],
+	"content_scripts": [
+		{
+			"matches": [
+				"https://docs.google.com/*formResponse"
+			],
+			"js": ["jquery-2.2.2.min.js", "googleResponseRedirect.js"],
+			"run_at": "document_end"
+		}
+	]
+}
