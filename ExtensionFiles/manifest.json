@@ -1,15 +1,15 @@
 {
-	"name": "Google Response redirect back Form",
-	"version": "1.1",
+	"name": "Chromebook Wakeup",
+	"version": "1.2",
 	"manifest_version": 2,
 	"description": "Redirect browser back to the Google Form after a response has been submitted",
 	"permissions": ["storage"],
 	"content_scripts": [
 		{
 			"matches": [
-				"https://docs.google.com/*formResponse"
+				"https://onlineattendance.us/phhs/checkin/"
 			],
-			"js": ["jquery-2.2.2.min.js", "googleResponseRedirect.js"],
+			"js": ["jquery-2.2.2.min.js", "chromebookWakeup.js"],
 			"run_at": "document_end"
 		}
 	]
